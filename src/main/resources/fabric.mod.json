@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "creepnt",
+  "version": "${version}",
+
+  "name": "Creepn't",
+  "description": "Disables creeper explosions, if you don't want the other effects of /gamerule doMobGriefing false",
+  "authors": [
+    "Aivech"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/creepnt/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "creepnt.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}

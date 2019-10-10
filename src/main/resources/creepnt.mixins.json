@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.aivech.creepnt",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityCreeperMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
